@@ -53,8 +53,4 @@ app.use(function(err, req, res, next) {
   res.json({error: err})
 });
 
-app.listen(3000, function (req, res, err){
-    console.log('app listens at 3000')
-})
-
 module.exports = app;
